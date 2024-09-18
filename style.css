@@ -5,8 +5,9 @@ body {
 }
 h1 {
     color: #333;
+    transition: opacity 0.5s ease; /* Smooth transition */
 }
-p {
-    font-size: 16px;
+.hidden {
+    opacity: 5; /* Make header near  invisible */
 }
 
